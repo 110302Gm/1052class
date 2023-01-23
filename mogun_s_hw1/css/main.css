@@ -1,0 +1,54 @@
+.welcomeIntro {
+    color: #000;
+    text-align: center;
+    font-size:  50px;
+}
+
+.firstParagraph {
+    color: #000;
+    text-align: center;
+}
+
+.funnyFacts {
+    text-align: center;
+}
+
+.imageStyle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+.elementStyle {
+    text-align: center;
+    padding: 50px;
+}
+
+.dogPic {
+    margin: 75px;
+    text-align: center;
+    padding: 50px;
+}
+
+.animatedGirl {
+    margin: 50px;
+    padding: 50px;
+}.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill), minmax(230px, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
